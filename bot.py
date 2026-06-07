@@ -1,9 +1,10 @@
 import asyncio
+import os
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-TOKEN = "8629680753:AAHbUQvhOQAUuaoSZRSZCvuu5Ahd7hpYg3U"
+TOKEN = os.getenv('API_TOKEN')
 ADMIN_ID = 8588919185  # O'z IDingizni yozing
 KANAL = "@kinolistuz"
 
